@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        {/* <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
@@ -17,7 +17,18 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
+        <div className="center-block">
+          <p className="title">
+            Hey y'all! 
+          </p>
+          <p className="blurb">
+            My name is Kaili! I'm a sophomore 
+            at Stanford University studying 
+            computer science and product design.
+          </p>
+        </div>
+        
       </header>
     </div>
   );

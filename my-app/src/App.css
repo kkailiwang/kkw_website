@@ -7,16 +7,35 @@
 }
 
 .App-header {
-  background-color: #fff6d7d5;
+  background-color: #F6FFD1;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: rgb(255, 168, 168);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 50;
+  color: #7ea0cc;
+  height: 100vh
+}
+
+.title {
+  color: #7891b3;
 }
 
 .App-link {
   color: #09d3ac;
+}
+
+.center-block {
+  margin: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.blurb {
+  text-align: left
 }
