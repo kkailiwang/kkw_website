@@ -1,13 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { Navbar, NavbarBrand } from "reactstrap";
 
 function App() {
+  document.title = "Keri Kaili Wang";
   return (
     <div className="App">
-      <header className="App-header">
+      <Navbar color="white">
+        <div className="top-bar">
+          <a href="#">
+            <img src={logo} width="30" height="30" />
+            Keri Kaili Wang
+          </a>
+        </div>
+      </Navbar>
+      {/* <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        {/* <p>
+      {/* <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
@@ -17,19 +27,21 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a> */}
+        </a> 
+      </header> */}
+      <body>
         <div className="center-block">
-          <p className="title">
-            Hey y'all! 
-          </p>
+          <p className="title">Hey y'all!</p>
           <p className="blurb">
-            My name is Kaili! I'm a sophomore 
-            at Stanford University studying 
+            My name is Kaili! I'm a sophomore at Stanford University studying
             computer science and product design.
           </p>
         </div>
-        
-      </header>
+      </body>
+      {/*
+      you can add another component/function by just doing <New_Component/>, 
+      just like how index.js used <App/>
+      */}
     </div>
   );
 }
