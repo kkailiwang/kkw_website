@@ -376,6 +376,15 @@ html, body {
     font-weight: 700;
 }
 
+.section-services .code {
+    font-family: 'Roboto Mono', monospace;
+    background-color: black;
+    color: white;
+    border-radius: 20%;
+    padding: 3px;
+    font-size: 0.7em;
+}
+
 .service p {
     color: #000;
     margin-bottom: 0;
