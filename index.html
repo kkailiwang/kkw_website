@@ -10,7 +10,7 @@
     <title>Keri Kaili Wang</title>
 
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="kaili wang">
     <meta name="keywords" content="">
 
     <!-- Mobile Specific Metas
@@ -130,9 +130,12 @@
                                 a bit in composition as well.
                                 Nowadays, I enjoy playing violin whenever I have the time. 
                             </li> 
+                            <li>
+                                I go by my middle name, Kaili, which is pronounced like Kylie. 
+                            </li>
                         </div>
                         <br></br>
-                        <a href="http://www.grad.illinois.edu/sites/default/files/pdfs/cvsamples.pdf" class="btn btn-border" target="_blank" download>Download my cv</a>
+                        <a href="" class="btn btn-border" target="_blank" download>Download my resume</a>
                         <br></br>
                     </div>
                 </div>
@@ -208,36 +211,7 @@
                             </div><!-- /.portfolio-item-info -->
                         </div><!-- /.portfolio-item -->
                     </div>
-                    <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/portfolio-4.jpg" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>Project Title</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem4"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/portfolio-5.jpg" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>Project Title</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem5"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/portfolio-6.jpg" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>Project Title</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem6"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
-                    </div>
+                    
                 </div>
             </div>
         </section><!-- /.secton-portfolio -->
@@ -297,7 +271,7 @@
         </section><!-- /.secton-skills -->
 
         <section class="site-section section-counters text-center">
-            <div class="container">
+            <!-- <div class="container">
                 <div class="row">
                     <div class="col-sm-4 col-xs-12">
                         <p class="counter start" data-to="10" data-speed="2000">0</p>
@@ -312,7 +286,7 @@
                         <h4>Seconds on this site!<br>What are you waiting for?</h4>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </section><!-- /.section-counters -->
 
         <section id="contact" class="site-section section-form text-center">
@@ -320,19 +294,19 @@
 
                 <h3>Contact</h3>
                 <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                <form>
+                <form method="POST" data-netlify="true" name="contact" id="contact-form">
                     <div class="row">
                         <div class="col-sm-6">
                             <input type="text" name="name" class="form-control mt-x-0" placeholder="Name" required>
                         </div>
                         <div class="col-sm-6">
-                            <input type="email" name="email" class="form-control" placeholder="Email" required>   
+                            <input type="email" name="FromEmailAddress" class="form-control" placeholder="Email" required>   
                         </div>
                         <div class="col-sm-12">
-                            <textarea name="message" id="mesaage" class="form-control" placeholder="Message" required></textarea>
+                            <textarea name="message" id="message" class="form-control" placeholder="Message" required></textarea>
                         </div>
                     </div>
-                    <button href="#" class="btn btn-border" type="submit">say hi <span class="glyphicon glyphicon-send"></span></button>
+                    <button class="btn btn-fill" type="submit">say hi <span class="glyphicon glyphicon-send"></span></button>
                 </form>
             </div>
         </section><!-- /.section-form -->

@@ -343,7 +343,7 @@ html, body {
 
 .section-services:before {
     content: '';
-    background: url(../img/portlandbridge.jpg) no-repeat fixed center / cover;
+    background: url(../img/kkbackground.png) no-repeat fixed center / cover;
     width: 100%;
     height: 400px; 
     position: absolute;
@@ -509,7 +509,7 @@ html, body {
 
 /* Section: Counters */
 .section-counters {
-    background: url(../img/counters-bg.jpg) no-repeat fixed center / cover;
+    background: url(../img/kkbackground.png) no-repeat fixed center / cover;
     width: 100%;
     padding: 100px 0;
     position: relative;
@@ -522,7 +522,9 @@ html, body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.7);
+    /* background-color: rgba(0,0,0,0.7); */
+    background-color: rgba(255,255,255,0.5);
+
 }
 
 .section-counters h4 {
