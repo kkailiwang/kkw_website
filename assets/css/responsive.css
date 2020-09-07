@@ -163,6 +163,12 @@
 	================================================== */
 	.site-logo {
 		padding-left: 15px;
+		
+	}
+
+	.site-logo img {
+		width: 30px;
+		height: 30px;
 	}
 
 	/* .site-logo img {
@@ -296,7 +302,7 @@
 	/* HERO
 	================================================== */
 	.hero .col-md-6:first-child {
-		top: 30%;
+		top: 37%;
 	}
 
 	.hero h1 {
@@ -310,8 +316,12 @@
 	}
 
 	.hero img {
-		max-height: 260px;
+		max-height: 200px;
 		width: 100%;
+	}
+
+	.hero .col-md-6:last-child {
+		bottom: 30px;
 	}
 
 	/* SITEMAIN
