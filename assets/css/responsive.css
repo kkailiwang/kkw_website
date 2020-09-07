@@ -317,7 +317,7 @@
 
 	.hero img {
 		max-height: 200px;
-		width: 100%;
+		width: auto;
 	}
 
 	.hero .col-md-6:last-child {
