@@ -16,16 +16,16 @@
 	}
 
 	.hero img {
-		max-height: 500px;
+		max-height: 400px;
 		max-width:100%;
 	}
 
 	/* SITEMAIN
 	================================================== */
 	/* Modal */
-	.modal-header {
-		height: 400px;
-	}
+	/* .modal-header {
+		max-height: 400px;
+	} */
 }
 
 /* Medium Devices, Desktops */
@@ -66,7 +66,7 @@
 	}
 
 	.hero img {
-		max-height: 420px;
+		max-height: 320px;
 		max-width: 100%;
 	}
 
@@ -129,9 +129,9 @@
 	}
 
 	/* Modal */
-	.modal-header {
+	/* .modal-header {
 		height: 350px;
-	}
+	} */
 }
 
 /* Small Devices, Tablets */
@@ -310,7 +310,7 @@
 	}
 
 	.hero img {
-		max-height: 360px;
+		max-height: 260px;
 		width: 100%;
 	}
 
@@ -393,9 +393,9 @@
 	}
 
 	/* Modal */
-	.modal-header {
+	/* .modal-header {
 		height: 250px;
-	}
+	} */
 
 	/* FOOTER
 	================================================== */
