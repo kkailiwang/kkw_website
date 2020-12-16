@@ -5,6 +5,12 @@ $(function() {
         var $form = $(this);
         $.post($form.attr("action"), $form.serialize()).then(function() {
             console.log("Thank you!");
+            $('#contact-submit-msg').removeClass('hide');
+            
+        }).catch(function() {
+            $('#contact-submit-error').removeClass('hide');
+        }).done(function() {
+            $('#contact-form').addClass('hide');
         });
     })
 
